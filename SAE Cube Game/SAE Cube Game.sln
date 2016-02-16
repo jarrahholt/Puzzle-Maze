@@ -1,11 +1,11 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{1E11BFDF-0390-2D2E-EF28-8BA2DF86F5D2}") = "SAE Cube Game", "Assembly-CSharp-firstpass.csproj", "{87C46505-8438-62E0-738E-B515F61CDA83}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAE Cube Game.CSharp.Plugins", "SAE Cube Game.CSharp.Plugins.csproj", "{F4CE7E94-9959-9F9D-B696-40452A05A4D7}"
 EndProject
-Project("{1E11BFDF-0390-2D2E-EF28-8BA2DF86F5D2}") = "SAE Cube Game", "Assembly-CSharp.csproj", "{2EC5E03D-1EF5-FB6C-F517-1BADFB68833D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAE Cube Game.CSharp", "SAE Cube Game.CSharp.csproj", "{EF7253BF-60F4-2CB5-510E-8AC041E0AD7D}"
 EndProject
-Project("{1E11BFDF-0390-2D2E-EF28-8BA2DF86F5D2}") = "SAE Cube Game", "Assembly-CSharp-Editor.csproj", "{E9930676-37C8-A000-651A-A99B9B767878}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAE Cube Game.CSharp.Editor", "SAE Cube Game.CSharp.Editor.csproj", "{6995ECB0-F732-830D-217C-1AA2CF248DB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,24 +13,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{87C46505-8438-62E0-738E-B515F61CDA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87C46505-8438-62E0-738E-B515F61CDA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87C46505-8438-62E0-738E-B515F61CDA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87C46505-8438-62E0-738E-B515F61CDA83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2EC5E03D-1EF5-FB6C-F517-1BADFB68833D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2EC5E03D-1EF5-FB6C-F517-1BADFB68833D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2EC5E03D-1EF5-FB6C-F517-1BADFB68833D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2EC5E03D-1EF5-FB6C-F517-1BADFB68833D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E9930676-37C8-A000-651A-A99B9B767878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E9930676-37C8-A000-651A-A99B9B767878}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E9930676-37C8-A000-651A-A99B9B767878}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E9930676-37C8-A000-651A-A99B9B767878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4CE7E94-9959-9F9D-B696-40452A05A4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CE7E94-9959-9F9D-B696-40452A05A4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CE7E94-9959-9F9D-B696-40452A05A4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CE7E94-9959-9F9D-B696-40452A05A4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7253BF-60F4-2CB5-510E-8AC041E0AD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7253BF-60F4-2CB5-510E-8AC041E0AD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7253BF-60F4-2CB5-510E-8AC041E0AD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7253BF-60F4-2CB5-510E-8AC041E0AD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6995ECB0-F732-830D-217C-1AA2CF248DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6995ECB0-F732-830D-217C-1AA2CF248DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6995ECB0-F732-830D-217C-1AA2CF248DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6995ECB0-F732-830D-217C-1AA2CF248DB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-			GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
-	EndGlobalSection
-
 EndGlobal
