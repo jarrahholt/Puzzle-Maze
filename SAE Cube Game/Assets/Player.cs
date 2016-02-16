@@ -52,10 +52,10 @@ public class Player : MonoBehaviour
         {
             other.gameObject.SetActive(false);
         chooseRowAgain:
-            rowChooser = Random.Range(1, 5);
+            rowChooser = Random.Range(0,4);
             //			Debug.Log ("Row " + rowChooser);
 
-            if (rowChooser == 1 && row1Full == false)
+            if (rowChooser == 0 && row1Full == false)
             {
             choosePieceAgain1:
                 pieceChooser = Random.Range(0,4);
@@ -88,7 +88,7 @@ public class Player : MonoBehaviour
                     goto choosePieceAgain1;
                 }
             }
-            else if (rowChooser == 2 && row2Full == false)
+            else if (rowChooser == 1 && row2Full == false)
             {
             choosePieceAgain2:
                 pieceChooser = Random.Range(0, 4);
@@ -120,7 +120,7 @@ public class Player : MonoBehaviour
                     goto choosePieceAgain2;
                 }
             }
-            else if (rowChooser == 3 && row3Full == false)
+            else if (rowChooser == 2 && row3Full == false)
             {
             choosePieceAgain3:
                 pieceChooser = Random.Range(0, 4);
@@ -153,7 +153,7 @@ public class Player : MonoBehaviour
                     goto choosePieceAgain3;
                 }
             }
-            else if (rowChooser == 4 && row4Full == false)
+            else if (rowChooser == 3 && row4Full == false)
             {
             choosePieceAgain4:
                 pieceChooser = Random.Range(0, 4);
@@ -185,7 +185,7 @@ public class Player : MonoBehaviour
                     goto choosePieceAgain4;
                 }
             }
-            else if (rowChooser == 5 && row5Full == false)
+            else if (rowChooser == 4 && row5Full == false)
             {
             choosePieceAgain5:
                 pieceChooser = Random.Range(0, 4);
@@ -217,10 +217,10 @@ public class Player : MonoBehaviour
                     goto choosePieceAgain5;
                 }
             }
-            else if (row1Full == true && row2Full == true && row3Full == true && row4Full == true && row5Full == true)
-            {
+            //else if (row1Full == true && row2Full == true && row3Full == true && row4Full == true && row5Full == true)
+            //{
                 //Application.LoadLevel("Success");
-            }
+           // }
             else {
                 goto chooseRowAgain;
             }
